@@ -1,20 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package prueba;
 
-/**
- *
- * @author DELL
- */
+import java.util.HashSet;
+import java.util.Set;
+
 public class Prueba {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Set<String> set = new HashSet();
+        
+        for (int i = 1; i <= 16; i++)
+            set.add("Palabra" + i);
+        
+        System.out.print(set);
     }
     
 }
